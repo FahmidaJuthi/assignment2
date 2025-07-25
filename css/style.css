@@ -62,3 +62,21 @@ h1,h2 {
     background-image: url(../images/deal-zabo.png);
     background-size: cover;
 }
+.social_media{
+    text-align: right;
+}
+.social_media a i{
+    font-size:2rem;
+    
+}
+.footer_inner{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+ @media screen and (max-width: 640px) {
+        .social_media{
+            text-align:left;
+        }
+    }
