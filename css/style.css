@@ -19,3 +19,18 @@ h1,h2 {
       font-family: 'Noto Serif', serif;
       
     }
+
+.lover{
+    position:relative;
+}
+    @keyframes spinBadge {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+.spin-badge {
+      animation: spinBadge 3s linear infinite;
+      
+      top:-10%;
+      left:38%;
+      width:20%;
+    }
